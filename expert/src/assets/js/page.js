@@ -136,6 +136,29 @@ __webpack_require__(61);          // 11 kb
 __webpack_require__(63);
 
 
+/*
+|--------------------------------------------------------------------------
+| Configure
+|--------------------------------------------------------------------------
+|
+| Modify some variables to personalize your project. This file is required.
+|
+*/
+__webpack_require__(81);
+
+
+/*
+|--------------------------------------------------------------------------
+| Custom script
+|--------------------------------------------------------------------------
+|
+| Write your custom JavaScrip code. Feel free to split your code to several
+| files and import the other files here or inside script.js.
+|
+*/
+__webpack_require__(82);
+
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13211,7 +13234,7 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-  * Bootstrap v4.1.2 (https://getbootstrap.com/)
+  * Bootstrap v4.1.3 (https://getbootstrap.com/)
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
@@ -13281,7 +13304,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): util.js
+   * Bootstrap (v4.1.3): util.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -13413,7 +13436,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): alert.js
+   * Bootstrap (v4.1.3): alert.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -13425,7 +13448,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'alert';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.alert';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -13588,7 +13611,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): button.js
+   * Bootstrap (v4.1.3): button.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -13600,7 +13623,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'button';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.button';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -13752,7 +13775,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): carousel.js
+   * Bootstrap (v4.1.3): carousel.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -13764,7 +13787,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'carousel';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.carousel';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -14256,7 +14279,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): collapse.js
+   * Bootstrap (v4.1.3): collapse.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -14268,7 +14291,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'collapse';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.collapse';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -14624,7 +14647,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): dropdown.js
+   * Bootstrap (v4.1.3): dropdown.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -14636,7 +14659,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'dropdown';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.dropdown';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -15112,7 +15135,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): modal.js
+   * Bootstrap (v4.1.3): modal.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -15124,7 +15147,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'modal';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.modal';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -15683,7 +15706,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): tooltip.js
+   * Bootstrap (v4.1.3): tooltip.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -15695,7 +15718,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'tooltip';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.tooltip';
     var EVENT_KEY = "." + DATA_KEY;
     var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -16353,7 +16376,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): popover.js
+   * Bootstrap (v4.1.3): popover.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -16365,7 +16388,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'popover';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.popover';
     var EVENT_KEY = "." + DATA_KEY;
     var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -16550,7 +16573,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): scrollspy.js
+   * Bootstrap (v4.1.3): scrollspy.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -16562,7 +16585,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'scrollspy';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.scrollspy';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -16866,7 +16889,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): tab.js
+   * Bootstrap (v4.1.3): tab.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -16878,7 +16901,7 @@ module.exports = g;
      * ------------------------------------------------------------------------
      */
     var NAME = 'tab';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.tab';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -17115,7 +17138,7 @@ module.exports = g;
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): index.js
+   * Bootstrap (v4.1.3): index.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -34637,6 +34660,120 @@ __webpack_require__(80);
 
 }(jQuery);
 
+
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports) {
+
+$(function() {
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Configure your website
+  |--------------------------------------------------------------------------
+  |
+  | We provided several configuration variables for your ease of development.
+  | Read their complete description and modify them based on your need.
+  |
+  */
+
+  page.config({
+
+    /*
+    |--------------------------------------------------------------------------
+    | Google API Key
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify your Google API key if you need to use Google Maps
+    | in your application
+    |
+    | https://developers.google.com/maps/documentation/javascript/get-api-key
+    |
+    */
+
+    googleApiKey: 'AIzaSyDRBLFOTTh2NFM93HpUA4ZrA99yKnCAsto',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Google Analytics Tracking
+    |--------------------------------------------------------------------------
+    |
+    | If you want to use Google Analytics, you can specify your Tracking ID in
+    | this option. Your key would be a value like: UA-12345678-9
+    |
+    */
+
+    googleAnalyticsId: '',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Google reCAPTCHA
+    |--------------------------------------------------------------------------
+    |
+    | reCAPTCHA protects you against spam and other types of automated abuse.
+    | Please signup for an API key pair and insert your `Site key` value to the
+    | following variable.
+    |
+    | http://www.google.com/recaptcha/admin
+    |
+    */
+
+    reCaptchaSiteKey:  '6Ldaf0MUAAAAAHdsMv_7dND7BSTvdrE6VcQKpM-n',
+
+    // See available languages: https://developers.google.com/recaptcha/docs/language
+    reCaptchaLanguage: '',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Disable AOS on mobile
+    |--------------------------------------------------------------------------
+    |
+    | If true, the Animate On Scroll animations don't run on mobile devices.
+    |
+    */
+
+    disableAOSonMobile: true,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Smooth Scroll
+    |--------------------------------------------------------------------------
+    |
+    | If true, the browser's scrollbar moves smoothly on scroll and gives your
+    | visitor a better experience for scrolling.
+    |
+    */
+
+    smoothScroll: true,
+
+  });
+
+});
+
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports) {
+
+
+/*
+|--------------------------------------------------------------------------
+| Custom Javascript code
+|--------------------------------------------------------------------------
+|
+| Now that you configured your website, you can write additional Javascript
+| code inside the following function. You might want to add more plugins and
+| initialize them in this file.
+|
+*/
+
+$(function() {
+
+
+
+});
 
 
 /***/ })

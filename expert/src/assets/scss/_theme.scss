@@ -6,12 +6,13 @@
 
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:200,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
 
 
 //----------------------------------------
 // Color system
 //----------------------------------------
-$blue:                            #50a1ff;
+$blue:                            #000000;
 $indigo:                          #6610f2;
 $purple:                          #926dde;
 $pink:                            #e83e8c;
@@ -23,7 +24,7 @@ $teal:                            #20c997;
 $cyan:                            #17a2b8;
 
 // Context colors
-$color-primary:                   #000000;
+$color-primary:                   $blue;
 $color-secondary:                 #e9ecf0;
 $color-success:                   $green;
 $color-info:                      $purple;
