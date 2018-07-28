@@ -6,12 +6,13 @@
 
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:200,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700');
 
 
 //----------------------------------------
 // Color system
 //----------------------------------------
-$blue:                            #50a1ff;
+$blue:                            #005596;
 $indigo:                          #6610f2;
 $purple:                          #926dde;
 $pink:                            #e83e8c;
@@ -19,12 +20,12 @@ $red:                             #ff4954;
 $orange:                          #ffbe00;
 $yellow:                          #ffba00;
 $green:                           #3cd458;
-$teal:                            #20c997;
+$teal:                            #57BBBF;
 $cyan:                            #17a2b8;
 
 // Context colors
-$color-primary:                   $blue;
-$color-secondary:                 #e9ecf0;
+$color-primary:                   $teal;
+$color-secondary:                 $blue;
 $color-success:                   $green;
 $color-info:                      $purple;
 $color-warning:                   $yellow;
@@ -63,8 +64,8 @@ $color-subtitle:                  $color-text-light;
 ////----------------------------------------
 // Fonts
 ////----------------------------------------
-$font-family-base:                "Open Sans", sans-serif;
-$font-family-title:               Dosis, sans-serif;
+$font-family-base:                'Montserrat', sans-serif;
+$font-family-title:               'Montserrat', sans-serif;
 
 $font-size-base:                  0.9375rem;
 
