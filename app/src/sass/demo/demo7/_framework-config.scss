@@ -22,3 +22,9 @@ $m--root-font: (
 
 $m--brand-color: #57BBBF;
 $m--brand-inverse-color: #ffffff;
+
+@media (min-width: 1025px) {
+.m-header-menu.m-header-menu--submenu-skin-light .m-menu__nav > .m-menu__item .m-menu__submenu > .m-menu__subnav > .m-menu__item:hover > .m-menu__link, .m-header-menu.m-header-menu--submenu-skin-light .m-menu__nav > .m-menu__item .m-menu__submenu > .m-menu__subnav > .m-menu__item.m-menu__item--hover > .m-menu__link {
+    background-color: #f1f2f7 !important;
+}
+}
