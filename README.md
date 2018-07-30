@@ -9,3 +9,7 @@ Font: Montserrat<br>
 
 // Front Website:<br>
 Compiled Files Location: www > dist
+
+// App:<br>
+Compiled Files Location: app > dist<br>
+- Pages to use: dash, dash2, user, org

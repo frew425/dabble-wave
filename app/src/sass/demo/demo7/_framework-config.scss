@@ -56,3 +56,29 @@ $m--brand-inverse-color: #ffffff;
 .m-widget4 .m-widget4__item .m-widget4__img.m-widget4__img--logo img {
     border-radius: 0px !important;
 }
+
+.m-card-profile .m-card-profile__pic img.user {
+    max-width: 200px !important;
+    width: 200px !important;
+    object-fit: cover;
+    height: 200px !important;
+}
+
+.m-card-profile .m-card-profile__pic .m-card-profile__pic-wrapper {
+    padding: 4px !important;
+    background-image: -webkit-linear-gradient(linear, left top, right top, color-stop(0%, #005596 ), color-stop(100%, #57BBBF )) !important;
+    background-image: -moz-linear-gradient(-45deg, #005596 0%, #57BBBF 100%) !important;
+    background-image: -o-linear-gradient(-45deg, #005596 0%, #57BBBF 100%) !important;
+    background-image: linear-gradient(-45deg, #005596 0%, #57BBBF 100%) !important;
+}
+
+.m-card-user .m-card-user__pic img {
+    object-fit: cover;
+    height: 70px !important;
+}
+
+.m-nav__link-icon img {
+    object-fit: cover;
+    height: 35px !important;
+    width: 35px !important;
+}
