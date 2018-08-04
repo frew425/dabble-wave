@@ -20756,9 +20756,13 @@ a.hover-line:before, a.hover-line:after {
           transition-duration: 0.4s;
   opacity: 0; }
 
-a.hover-line:after {
+a.hover-line.light:after {
   left: 0;
   background-color: #ffffff; }
+
+a.hover-line.dark:after {
+  left: 0;
+  background-color: #57BBBF; }
 
 a.hover-line:hover {
   cursor: pointer; }
